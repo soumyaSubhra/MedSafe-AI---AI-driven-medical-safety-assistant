@@ -5,7 +5,7 @@ from risk_engine import check_interactions, calculate_risk_score
 
 st.title("MedSafe AI - Prescription Safety Analyzer")
 
-uploaded_file = st.file_uploader("Upload Prescription", type=["png", "jpg", "jpeg"])
+uploaded_file = st.file_uploader("Upload Prescription Image", type=["png", "jpg", "jpeg"])
 
 if uploaded_file:
 
@@ -29,7 +29,6 @@ if uploaded_file:
     warnings = check_interactions(medicines)
 
     if warnings:
-
         st.subheader("⚠ Drug Interaction Warnings")
 
         for w in warnings:

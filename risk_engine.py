@@ -34,7 +34,6 @@ def calculate_risk_score(medicines, warnings):
     score = 0
 
     score += len(medicines) * 10
-
     score += len(warnings) * 30
 
     if score > 100:
