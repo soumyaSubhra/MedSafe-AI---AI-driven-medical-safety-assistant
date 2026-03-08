@@ -1,0 +1,27 @@
+{
+  "medicines": [
+    "paracetamol",
+    "amoxicillin",
+    "cetirizine",
+    "pantoprazole",
+    "ibuprofen",
+    "aspirin",
+    "metformin",
+    "atorvastatin",
+    "omeprazole",
+    "azithromycin"
+  ],
+
+  "interactions": [
+    {
+      "drug1": "ibuprofen",
+      "drug2": "aspirin",
+      "risk": "Increased risk of stomach bleeding"
+    },
+    {
+      "drug1": "atorvastatin",
+      "drug2": "azithromycin",
+      "risk": "May increase muscle toxicity"
+    }
+  ]
+}
